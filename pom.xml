@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>jenkins</artifactId>
+	<artifactId>jenkins3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>visamane-prediction-api-1</name>
 	<description>api viamane prdiction plugin</description>
@@ -46,7 +46,7 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
+			<url>http://nexus.hrdatabank.com/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
